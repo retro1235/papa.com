@@ -1,0 +1,79 @@
+body {
+	text-align: center;
+	background: linear-gradient(#42A5F5 0%, #F06292 100%);
+	background-repeat: no-repeat;
+}
+
+img {
+	border-radius: 50%;
+	width: 150px;
+}
+
+.line {
+	height: 6px;
+	width: 70px;
+	background-color: black;
+	margin: 8px auto;
+}
+
+#bio {}
+.menu{
+list-style: none;
+font-family: cursive;;
+position: absolute;
+top: 10px;
+right: 30px;	
+z-index: 10;
+cursor: pointer;
+}
+.links{
+float: left;
+color: aliceblue;
+padding-top: 5px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 5px;
+	font-family: fantasy;
+	font-size: 20px;
+	
+}
+.links:hover{
+background-color:skyblue;
+	
+}
+#app{
+width: 100%;
+height: 800px;
+background-color: aliceblue;	
+}
+.line{
+height: 6px;
+background-color: black;
+width: 70px;
+margin: 80px auto;	
+}
+#game{
+width: 100%;
+height: 800px;
+background-color: aquamarine;	
+}
+img{
+transition: transform .2s	
+}
+img:hover{
+transform: scale(0.9)
+}
+#chatbot{
+width: 100%;
+height: 500px;
+background-color: azure;	
+}
+#inspiration{
+width: 100%;
+height: 500px;
+background-color:  violet;
+}
+.data{
+width: 300;
+height: 300px;	
+}
